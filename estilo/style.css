@@ -123,30 +123,30 @@ main img.pequena {
 
 div.bg {
     background-color: lightblue;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 20px;
 }
 
 #qd1 {
     width: 45%;
-    max-height: 300px;
+    max-height: 200px;
+    display: inline-block;
+    text-align: center;
 
 }
 div#bgtop {
     background-image: url('../imagens/bg2.png');
-    background-size: 250px;  
-    position: absolute;
-    left: 60%;
-    top: 40%;
-    
+    background-size: 200px;  
+    display: flex;
+        
 }
 
 
 
 div#bgmid {
     background-image: url('../imagens/bg3.png');
-    background-size: 250px;
+    background-size: 200px;
 
     
 }
@@ -154,19 +154,19 @@ div#bgmid {
 div#bgbot1 {
     display: inline-block;
     background-image: url('../imagens/bg6.png');
-    background-size: 250px;
+    background-size: 200px;
 }
 
 div#bgbot2 {
     display: inline-block;
     background-image: url('../imagens/bg7.png');
-    background-size: 250px;
+    background-size: 200px;
 }
 
 div#bgbot3 {
     display: inline-block;
     background-image: url('../imagens/bg8.png');
-    background-size: 250px;
+    background-size: 200px;
 
 }
 
