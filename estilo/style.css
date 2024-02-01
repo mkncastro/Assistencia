@@ -39,11 +39,28 @@ header{
     width: 200px;
 }
 
-p.center, ul {
+ul {
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    list-style-type: none;
+    color: var(--cor4);
+    columns: 2;
+}
+
+.center {
     text-align: center;
     font-family: var(--fonte-destaque);
     font-size: 1.3em;
-    list-style-type: none;
+    color: var(--cor4);
+
+
+}
+
+.orcamento {
+    margin: 10px -20px 10px -20px;
+    background-color: var(--cor0);
+    text-align: center;
+
 }
 
 header > h1 {
@@ -85,6 +102,23 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    color: var(--cor4);
+    padding: 10px;
+    line-height: 1em;
+    font-family: var(--fonte-destaque);
+}
+
+main h2 {
+    color: var(--cor4);
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 1em;
+    font-weight: normal;
+    font-family: var(--fonte-destaque);
+
 }
 
 main p {
@@ -129,50 +163,27 @@ section.imagem {
 section#top {
     background-image: url('../imagens/bg2.png');
     background-attachment: fixed;
-    height: 200px;
+    height: 300px;
+    margin: 10px -20px 10px -20px;
 }
 
 
 section#mid {
     background-image: url('../imagens/bg3.png');
     background-attachment: fixed;
-    height: 200px;
-    
-}
-
-
-div.video { 
-    background-color: var(--cor5);
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 58%;
-    position: relative;
-}
-
-div.video > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-}
-
-main h1 {
-    color: var(--cor4);
-    padding: 10px;
-    line-height: 1em;
-    font-family: var(--fonte-destaque);
-}
-
-main h2 {
-    color: var(--cor4);
-    font-size: 1.2em;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
-    text-indent: 1em;
-    font-weight: normal;
-    font-family: var(--fonte-destaque);
+    height: 300px;
+    margin: 10px -20px 10px -20px;
 
 }
+
+section#bot {
+    background-image: url('../imagens/bg9.png');
+    background-attachment: fixed;
+    height: 300px;
+    margin: 10px -20px 10px -20px;
+
+}
+
 
 aside {
     background-color: var(--cor1);
@@ -201,6 +212,23 @@ aside > ul {
     list-style-position: inside;
     columns: 2;
 
+}
+
+
+div.video { 
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 
